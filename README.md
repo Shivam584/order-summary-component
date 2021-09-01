@@ -43,8 +43,8 @@ the challenge was to create exact copy of design with responsive features.
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/Shivam584/order-summary-component](https://github.com/Shivam584/order-summary-component)
+- Live Site URL: [https://shivam584.github.io/order-summary-component/](https://shivam584.github.io/order-summary-component/)
 
 ## My process
 
