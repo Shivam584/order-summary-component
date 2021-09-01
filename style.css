@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    font-family: 'Red Hat Display', sans-serif;
+    padding: 0;
+    box-sizing: content-box;
+    /* border: 2px solid red ; */
+}
+body{
+    background-color:hsl(225, 100%, 94%);
+}
+#background{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: auto;
+    width: 100%;
+    z-index: -11;
+}
+main{
+    overflow: hidden;
+    display: flex;
+    height: 1000px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.center{
+    text-align: center;
+}
+.description,span{
+    width: 20em;
+    margin: 1em auto;
+    font-weight: 500;
+    color: hsl(224, 23%, 55%);
+    margin-bottom: 0.5em;
+}
+.card{
+    overflow:hidden;
+    display: flex;
+    width: clamp(70%,20vh,auto);
+    flex-direction: column;
+    border-radius: 15px ;
+    background-color: #ffffff;
+    box-shadow: 0 10px 20px 6px hsla(245, 75%, 52%, 0.1);
+}
+.head-img{
+width: auto;
+}
+.heading{
+margin: 1.5em 0 0  0;
+font-size: 1.8rem;
+}
+.widget{
+display: flex;
+justify-content: space-between;
+align-items: center;
+background-color: #f8f9fe;
+width: 80%;
+margin: 1.5em auto;
+border-radius: 10px;
+padding: 0.8em;
+}
+.widget-icon{
+margin: 0 1em;
+   border-radius: 30px;
+}
+span{
+line-height: 1.8;
+}
+.change
+{
+margin-right: 1.5em;
+}
+a{
+font-weight: 700;
+color:  hsl(245, 75%, 52%);
+}
+a:hover{
+text-decoration: none;
+transition: 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
+opacity: 0.75;
+}
+button{
+border: none;
+font-family: 'Red Hat Display', sans-serif;
+font-weight: 900;
+padding: 1em;
+width: 75%;
+margin: 1em auto;
+cursor: pointer;
+}
+.payment{
+background-color: hsl(245, 75%, 52%);
+border-radius: 10px;
+color: hsl(225, 100%, 98%);
+box-shadow: 0 10px 10px 6px hsla(245, 75%, 52%, 0.1);
+
+}
+.payment:hover{
+background-color: hsl(245, 75%, 52%,0.75);
+}
+.order{
+background-color: hsl(0, 0%, 99%);
+margin-bottom: 2.8em;
+opacity: 0.5;
+}
+.order:hover{
+opacity: 1;
+}
+@media screen and (max-width:500px) {
+.card{
+  width: 90%;
+}
+.widget{
+  margin: 0.5em auto;
+}
+.widget-icon{
+  margin: 0;
+}
+.payment{
+  margin: 0.5em auto;
+}
+.order{
+margin-bottom:1.5em ;
+}
+.change{
+margin-right: 0em;
+}
+}
