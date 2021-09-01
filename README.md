@@ -25,13 +25,20 @@ the challenge was to create exact copy of design with responsive features.
 ### Screenshot
 
 <p float="left" align="center">
-  <img src="/screenshorts/s1_desktop.png" width="300" />
-  <img src="/screenshorts/s2_mobile.png" width="300" /> 
+<br><br>
+  <h4>Desktop version</h4>
+  <img src="screenshorts/s1_desktop.png" alt="nf" width="300" />
+<br><br>
+  <h4>Mobile version</h4>
+  <img src="screenshorts/s2_mobile.png" width="300" /> 
 </p>
-
 <p float="left" align="center">
-  <img src="/screenshorts/s3_tablet.png" width="300" />
-  <img src="/screenshorts/s4_tv.png" width="300" /> 
+<br>
+  <h4>Tablet version</h4>
+  <img src="screenshorts/s3_tablet.png" width="300" />
+<br><br>
+  <h4>T.V version</h4>
+  <img src="screenshorts/s4_tv.png" width="300" /> 
 </p>
 
 ### Links
